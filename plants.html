@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    td {
+      color:red;
+    }
+    table-hover {
+      background-color: aqua;
+    }
+  </style>
   <title>Challenging Person</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,5 +60,62 @@
   <img src="ns.jpg" class="img-thumbnail" width="250" height="250">
   <img src="peonies.jpg" class="img-thumbnail" width="150" height="150">
   </div>
+  <hr>
+  <div>
+  <table style="text-align: center;" class="table table-striped-columns table-hover table-striped ">
+     <caption> Table of plants,lakes and mountains </caption >
+    <thead style="color: brown;background-color: bisque;">
+      <tr>
+      <th>Letter</th>
+      <th>Plant</th>
+      <th scope="row">Mountain</th>
+      <th>Lake</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>P</td>
+        <td>Peony</td>
+        <td>Popa Hill</td>
+        <td>Paanajarvi</td>
+      </tr>
+      <tr>
+        <td>M</td>
+        <td>Million Gold</td>
+        <td>Mount Tahan</td>
+        <td>Mahanadhi</td>
+      </tr>
+      <tr>
+        <td>N</td>
+        <td>Nasturtium</td>
+        <td>namamsan</td>
+        <td>Nagarjuna Sagar Reservoir</td>
+      </tr>
+      <tr>
+        <td>Y</td>
+        <td>Yarrow</td>
+        <td>Yelagiri</td>
+        <td>Yamdrok</td>
+      </tr>
+    
+    
+      <tr>
+        <td>A</td>
+        <td>Annual Vinca</td>
+        <td>Anaimudi</td>
+        <td>Abashiri</td>
+      </tr>
+    
+    </tbody>
+  </div>
+  </table>
+  <br>
+  <hr>
+  <div class="container">
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+    </div>
 </body>
 </html>
