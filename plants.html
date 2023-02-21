@@ -8,6 +8,13 @@
     table-hover {
       background-color: aqua;
     }
+    .card{
+      float:left;
+    }
+    .caption-top {
+      font-size: 20px;
+      text-align: center;
+    }
   </style>
   <title>Challenging Person</title>
   <meta charset="utf-8">
@@ -29,9 +36,11 @@
       <li class="nav-link and active">
         <a class="nav-link" href="basic.html">Basic</a> </li>
     
-        <li class="nav-link and active">
+      <li class="nav-link and active">
           <a class="nav-link" href="advanced.html">Advanced</a> </li>
-      </ul>
+      <li class="nav-link and active">
+         <a class="nav-link" href="plants.html">Plants</a> </li>
+    </ul>
   </div>
 </nav>
 <h1>Plants by Maheshwar Punyam Anand</h1>
@@ -59,23 +68,25 @@
 </div>
 
 <p>While resizing the rendered image, we can see that the row with plant names have been turned into horizontal first</p>
-
+<br>
+<hr>
+<br>
 <div class="container">
-<img src="MG.jpg" class="img-fluid" width="250" height="350">
-<img src="ns.jpg" class="img-fluid" width="250" height="250">
-<img src="peonies.jpg" class="img-fluid" width="150" height="150" >
+<img src="MG.jpg" class="img-fluid" width="350" height="450">
+<img src="ns.jpg" class="img-fluid" width="350" height="350">
+<img src="peonies.jpg" class="img-fluid" width="250" height="250" >
 </div>
 <div class="container">
   
   <span class="border" border-color="red"></span>
-  <img src="MG.jpg" class="img-thumbnail" width="250" height="350" >
-  <img src="ns.jpg" class="img-thumbnail" width="250" height="250">
-  <img src="peonies.jpg" class="img-thumbnail" width="150" height="150">
+  <img src="MG.jpg" class="img-thumbnail" width="350" height="450" >
+  <img src="ns.jpg" class="img-thumbnail" width="350" height="350">
+  <img src="peonies.jpg" class="img-thumbnail" width="250" height="250">
   </div>
   <hr>
   <div>
-  <table style="text-align: center;" class="table table-striped-columns table-hover table-striped ">
-     <caption> Table of plants,lakes and mountains </caption >
+  <table style="text-align: center;" class="table table-striped-columns table-hover table-striped table-sm ">
+     <caption class="caption-top " > <b>Table of plants,lakes and mountains </b></caption >
     <thead style="color: brown;background-color: bisque;">
       <tr>
       <th>Letter</th>
@@ -118,6 +129,12 @@
         <td>Abashiri</td>
       </tr>
     
+      <tr>
+        <td>D</td>
+        <td>Daylily</td>
+        <td>Diamond Hill</td>
+        <td>Darbandikhan</td>
+      </tr>
     </tbody>
   </div>
   </table>
@@ -138,15 +155,19 @@
         <button type="button" class="btn btn-danger">D<span>(Daylily)</span></button>
       </div>
     </div>
+    <br>
+    <hr>
+    <br>
   <div class="dropdown" role="group">
     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
       Initials
     </button>
-    
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="basic.html">Basic link</a></li>
-      <li><a class="dropdown-item" href="advanced.html">Advanced link</a></li>
-    </ul>
+    <div class="dropdown-menu">
+      <ul style="list-style-type: none;">
+        <li><a class="dropdown-item" href="basic.html">Basic link</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced link</a></li>
+      </ul>
+  </div>
   </div>
   <br>
   <hr>
@@ -171,6 +192,7 @@
 <br>
 <hr>
 <br>
+<div>
 <div class="card" style="width: 25rem;">
   <img src="peonies.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -194,6 +216,7 @@
     <p class="card-text">Million Gold Melampodium is an herbaceous annual with a mounded form. Its relatively fine texture sets it apart from other garden plants with less refined foliage. This is a relatively low maintenance plant, and should not require much pruning, except when necessary, such as to remove dieback.</p>
     <a href="http://plants.chaletnursery.com/12120004/Plant/13899/Million_Gold_Melampodium#:~:text=Million%20Gold%20Melampodium%20is%20an,such%20as%20to%20remove%20dieback" class="btn btn-primary">Take to Million Gold page</a>
   </div>
+</div>
 </div>
 </body>
 </html>
